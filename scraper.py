@@ -1,352 +1,124 @@
-#!/usr/bin/env python3
-"""
-Regulatory Intelligence Scraper
-Pulls from RBI, IFSCA, SEBI, CBDT, India Code, Supreme Court
-Runs daily via GitHub Actions at 8 AM IST
-"""
-
-import json
 import os
-from datetime import datetime
-from typing import List, Dict, Any
-import hashlib
+import json
 import requests
-from bs4 import BeautifulSoup
 import feedparser
+from datetime import datetime
 
-# Set up logging
-import logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# Securely load the Gemini API Key from GitHub Actions
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
 
-
-class RegulatoryScraperError(Exception):
-    pass
-
-
-class SourceScraper:
-    """Base class for scraping regulatory sources"""
+def analyze_with_gemini(text, title):
+    prompt = f"""
+    You are a regulatory analyst for a Private Wealth and Estate Planning desk. Analyze the following regulatory update.
     
-    def __init__(self):
-        self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    Categories allowed: "Succession & Estate Planning", "FEMA / Foreign Capital", "IFSCA & GIFT City", "Cross-border Taxation", "Trusts & Foundations", "General Housekeeping". 
+    Impact Levels: "High", "Medium", "Low".
+
+    Title: {title}
+    Text: {text}
+    """
+    
+    # This payload forces Gemini to respond strictly in your JSON dashboard format
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "responseSchema": {
+                "type": "OBJECT",
+                "properties": {
+                    "category": {"type": "STRING"},
+                    "impact_level": {"type": "STRING"},
+                    "summary": {"type": "STRING", "description": "1 sentence summary"},
+                    "why_it_matters": {"type": "STRING", "description": "2 sentences focusing on HNI/Family Office impact"},
+                    "affected_entities": {
+                        "type": "ARRAY",
+                        "items": {"type": "STRING"}
+                    }
+                },
+                "required": ["category", "impact_level", "summary", "why_it_matters", "affected_entities"]
+            }
         }
-        self.timeout = 10
-        self.items = []
-    
-    def dedupe_key(self, title: str, url: str) -> str:
-        """Generate a deduplication key"""
-        combined = f"{title}:{url}"
-        return hashlib.md5(combined.encode()).hexdigest()
-    
-    def parse_rss(self, url: str, source_name: str, source_type: str) -> List[Dict]:
-        """Parse RSS feed"""
-        try:
-            feed = feedparser.parse(url)
-            items = []
-            for entry in feed.entries[:15]:  # Limit to 15 most recent
-                item = {
-                    'title': entry.get('title', 'Untitled'),
-                    'url': entry.get('link', ''),
-                    'published': entry.get('published', datetime.now().isoformat()),
-                    'source': source_name,
-                    'source_type': source_type,
-                    'summary': entry.get('summary', '')[:500],
-                }
-                items.append(item)
-            logger.info(f"✓ {source_name}: {len(items)} items from RSS")
-            return items
-        except Exception as e:
-            logger.error(f"✗ {source_name} RSS parse failed: {e}")
-            return []
-    
-    def scrape_html(self, url: str, selector: str, source_name: str, source_type: str) -> List[Dict]:
-        """Generic HTML scraper"""
-        try:
-            response = requests.get(url, headers=self.headers, timeout=self.timeout)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.content, 'html.parser')
-            items = []
-            
-            for elem in soup.select(selector)[:15]:
-                link = elem.find('a')
-                if not link:
-                    continue
-                
-                item = {
-                    'title': link.get_text(strip=True),
-                    'url': link.get('href', ''),
-                    'published': datetime.now().isoformat(),
-                    'source': source_name,
-                    'source_type': source_type,
-                    'summary': '',
-                }
-                
-                # Ensure absolute URL
-                if item['url'] and not item['url'].startswith('http'):
-                    item['url'] = url.rstrip('/') + '/' + item['url'].lstrip('/')
-                
-                if item['url']:
-                    items.append(item)
-            
-            logger.info(f"✓ {source_name}: {len(items)} items from HTML")
-            return items
-        except Exception as e:
-            logger.error(f"✗ {source_name} HTML scrape failed: {e}")
-            return []
-
-
-class RBIScraper(SourceScraper):
-    """RBI notifications, circulars, FEMA updates"""
-    
-    def scrape(self) -> List[Dict]:
-        items = []
-        
-        # RBI Press Releases (RSS available, but also scrape main page)
-        press_url = "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx"
-        items.extend(self.scrape_html(
-            press_url,
-            'table tr td a',
-            'RBI - Press Releases',
-            'official'
-        ))
-        
-        # RBI Notifications (FEMA related)
-        notif_url = "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=11858"
-        items.extend(self.scrape_html(
-            notif_url,
-            'table tr td a',
-            'RBI - FEMA Notifications',
-            'official'
-        ))
-        
-        # RBI Circulars
-        circ_url = "https://www.rbi.org.in/scripts/BS_CircularIndexDisplay.aspx?Id=10822"
-        items.extend(self.scrape_html(
-            circ_url,
-            'table tr td a',
-            'RBI - Circulars',
-            'official'
-        ))
-        
-        return items
-
-
-class IFSCAScraper(SourceScraper):
-    """IFSCA circulars and press releases for GIFT City"""
-    
-    def scrape(self) -> List[Dict]:
-        items = []
-        
-        # IFSCA Circulars
-        circ_url = "https://www.ifsca.gov.in/Circular"
-        items.extend(self.scrape_html(
-            circ_url,
-            'div.news-item a',
-            'IFSCA - Circulars',
-            'official'
-        ))
-        
-        # IFSCA Press Releases
-        press_url = "https://www.ifsca.gov.in/PressRelease"
-        items.extend(self.scrape_html(
-            press_url,
-            'div.news-item a',
-            'IFSCA - Press Releases',
-            'official'
-        ))
-        
-        # IFSCA Notifications/Orders (if available)
-        notif_url = "https://www.ifsca.gov.in/Notification"
-        items.extend(self.scrape_html(
-            notif_url,
-            'div.news-item a',
-            'IFSCA - Notifications',
-            'official'
-        ))
-        
-        return items
-
-
-class SEBIScraper(SourceScraper):
-    """SEBI notifications relevant to family offices and AIFs"""
-    
-    def scrape(self) -> List[Dict]:
-        items = []
-        
-        # SEBI Circulars
-        circ_url = "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?action=showpath&val=584"
-        items.extend(self.scrape_html(
-            circ_url,
-            'a[href*="circular"]',
-            'SEBI - Circulars',
-            'official'
-        ))
-        
-        return items
-
-
-class CBDTScraper(SourceScraper):
-    """Income Tax circulars and notifications"""
-    
-    def scrape(self) -> List[Dict]:
-        items = []
-        
-        # CBDT Circulars
-        circ_url = "https://www.incometaxindia.gov.in/communications/circulars"
-        items.extend(self.scrape_html(
-            circ_url,
-            'table tr td a',
-            'CBDT - Circulars',
-            'official'
-        ))
-        
-        return items
-
-
-class SupremeCourtScraper(SourceScraper):
-    """Supreme Court judgments relevant to succession and estate planning"""
-    
-    def scrape(self) -> List[Dict]:
-        items = []
-        
-        # Supreme Court orders (recent)
-        orders_url = "https://main.sci.gov.in/supremecourt/2024/orders/"
-        items.extend(self.scrape_html(
-            orders_url,
-            'table tr td a',
-            'Supreme Court - Orders',
-            'official'
-        ))
-        
-        return items
-
-
-class IndiaCodeScraper(SourceScraper):
-    """Track Indian Succession Act, Hindu Succession Act for amendments"""
-    
-    def scrape(self) -> List[Dict]:
-        items = []
-        
-        # Indian Succession Act
-        isa_url = "https://www.indiacode.nic.in/handle/123456789/2318"
-        items.extend(self.scrape_html(
-            isa_url,
-            'table tr td a',
-            'India Code - Indian Succession Act',
-            'official'
-        ))
-        
-        # Hindu Succession Act
-        hsa_url = "https://www.indiacode.nic.in/handle/123456789/2318"
-        items.extend(self.scrape_html(
-            hsa_url,
-            'table tr td a',
-            'India Code - Hindu Succession Act',
-            'official'
-        ))
-        
-        return items
-
-
-def scrape_all_sources() -> List[Dict]:
-    """Run all scrapers and combine results"""
-    all_items = []
-    
-    scrapers = [
-        ('RBI', RBIScraper()),
-        ('IFSCA', IFSCAScraper()),
-        ('SEBI', SEBIScraper()),
-        ('CBDT', CBDTScraper()),
-        ('Supreme Court', SupremeCourtScraper()),
-        ('India Code', IndiaCodeScraper()),
-    ]
-    
-    logger.info("=" * 60)
-    logger.info(f"Regulatory Scrape Started: {datetime.now()}")
-    logger.info("=" * 60)
-    
-    for name, scraper in scrapers:
-        try:
-            items = scraper.scrape()
-            all_items.extend(items)
-        except Exception as e:
-            logger.error(f"✗ {name} scraper failed: {e}")
-    
-    logger.info(f"\nTotal items scraped: {len(all_items)}")
-    return all_items
-
-
-def deduplicate_items(new_items: List[Dict], existing_items: List[Dict]) -> List[Dict]:
-    """Remove duplicates based on URL and title hash"""
-    existing_keys = {
-        hashlib.md5(f"{item['title']}:{item['url']}".encode()).hexdigest()
-        for item in existing_items
     }
     
-    deduplicated = []
-    for item in new_items:
-        key = hashlib.md5(f"{item['title']}:{item['url']}".encode()).hexdigest()
-        if key not in existing_keys:
-            deduplicated.append(item)
+    try:
+        response = requests.post(API_URL, headers={"Content-Type": "application/json"}, json=payload)
+        response.raise_for_status()
+        result_text = response.json()['candidates'][0]['content']['parts'][0]['text']
+        return json.loads(result_text)
+    except Exception as e:
+        print(f"Failed to analyze with Gemini: {e}")
+        return {
+            "category": "General Housekeeping",
+            "impact_level": "Low",
+            "summary": "Automated summary failed. Please review the source directly.",
+            "why_it_matters": "Requires manual review.",
+            "affected_entities": []
+        }
+
+def fetch_rbi_updates():
+    print("Fetching RBI RSS feed...")
+    url = "https://www.rbi.org.in/Scripts/rss.aspx"
+    feed = feedparser.parse(url)
     
-    logger.info(f"After deduplication: {len(deduplicated)} new items")
-    return deduplicated
-
-
-def load_existing_data(filepath: str) -> Dict:
-    """Load existing updates.json"""
-    if os.path.exists(filepath):
-        try:
-            with open(filepath, 'r') as f:
-                return json.load(f)
-        except:
-            return {'updates': [], 'last_scraped': None}
-    return {'updates': [], 'last_scraped': None}
-
-
-def save_data(filepath: str, data: Dict):
-    """Save updates.json"""
-    with open(filepath, 'w') as f:
-        json.dump(data, f, indent=2, default=str)
-    logger.info(f"✓ Saved {len(data['updates'])} items to {filepath}")
-
+    updates = []
+    # Grab the top 3 latest updates for the daily run to keep it fast
+    for entry in feed.entries[:3]:
+        print(f"Analyzing: {entry.title}")
+        analysis = analyze_with_gemini(entry.description, entry.title)
+        
+        update = {
+            "id": entry.link.split('=')[-1] if '=' in entry.link else entry.link[-10:],
+            "published_date": datetime.now().strftime("%Y-%m-%d"),
+            "source": "RBI",
+            "source_type": "Press Release",
+            "title": entry.title,
+            "url": entry.link,
+            "classification": {
+                "category": analysis.get("category", "General Housekeeping"),
+                "impact_level": analysis.get("impact_level", "Low"),
+                "jurisdiction": ["India"]
+            },
+            "analysis": {
+                "summary": analysis.get("summary", ""),
+                "why_it_matters": analysis.get("why_it_matters", ""),
+                "affected_entities": analysis.get("affected_entities", [])
+            }
+        }
+        updates.append(update)
+    return updates
 
 def main():
-    # Paths
-    data_file = 'data/updates.json'
-    os.makedirs('data', exist_ok=True)
-    
-    # Load existing data
-    existing_data = load_existing_data(data_file)
-    existing_items = existing_data.get('updates', [])
-    
-    # Scrape all sources
-    new_items = scrape_all_sources()
-    
-    # Deduplicate
-    fresh_items = deduplicate_items(new_items, existing_items)
-    
-    # Combine: new items go to top
-    all_items = fresh_items + existing_items
-    
-    # Keep only last 500 items to prevent unbounded growth
-    all_items = all_items[:500]
-    
-    # Update data
-    data = {
-        'updates': all_items,
-        'last_scraped': datetime.now().isoformat(),
-        'total_count': len(all_items)
-    }
-    
-    # Save
-    save_data(data_file, data)
-    
-    logger.info("=" * 60)
-    logger.info("Scrape completed successfully")
-    logger.info("=" * 60)
+    if not GEMINI_API_KEY:
+        print("Error: GEMINI_API_KEY not found in environment variables.")
+        return
 
+    new_updates = fetch_rbi_updates()
+    
+    # Load existing dashboard data
+    data_file = "data.json"
+    existing_data = []
+    if os.path.exists(data_file):
+        with open(data_file, "r") as f:
+            try:
+                existing_data = json.load(f)
+            except json.JSONDecodeError:
+                existing_data = []
+                
+    # Deduplicate by URL so the dashboard doesn't show the same update twice
+    existing_urls = {item['url'] for item in existing_data}
+    added_count = 0
+    
+    for update in new_updates:
+        if update['url'] not in existing_urls:
+            existing_data.insert(0, update)
+            added_count += 1
+            
+    # Save the fresh intelligence back to your repository
+    with open(data_file, "w") as f:
+        json.dump(existing_data, f, indent=2)
+        
+    print(f"Run complete. Added {added_count} new regulatory updates.")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
