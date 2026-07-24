@@ -1,0 +1,91 @@
+{
+  "updates": [
+    {
+      "title": "RBI Master Direction on Liberalised Remittance Scheme (LRS) - Updated Guidelines",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=12345",
+      "published": "2024-01-15T10:30:00",
+      "source": "RBI - FEMA Notifications",
+      "source_type": "official",
+      "summary": "New guidelines on LRS annual limit and eligible investments",
+      "classification": {
+        "category": "FEMA & Foreign Exchange",
+        "jurisdiction": "India",
+        "impact_level": "Critical",
+        "one_line_summary": "RBI updates LRS annual limit eligibility criteria for resident individuals",
+        "why_it_matters": "Direct impact on HNI offshore investment structuring. Changes to annual limit thresholds affect NRI and resident family trust remittances. Requires immediate client communication.",
+        "confidence": 0.95
+      },
+      "classified_at": "2024-01-15T11:00:00"
+    },
+    {
+      "title": "IFSCA Circular on Non-Banking Financial Company (NBFC) - Registration in GIFT City",
+      "url": "https://www.ifsca.gov.in/Circular/2024-01",
+      "published": "2024-01-14T14:20:00",
+      "source": "IFSCA - Circulars",
+      "source_type": "official",
+      "summary": "Guidelines for NBFC registration and compliance requirements in GIFT City",
+      "classification": {
+        "category": "IFSCA & GIFT City",
+        "jurisdiction": "India",
+        "impact_level": "Important",
+        "one_line_summary": "IFSCA simplifies NBFC licensing process and clarifies capital requirements for GIFT City operations",
+        "why_it_matters": "Affects wealth structuring through GIFT City entities. Lower compliance burden makes GIFT City funds more accessible for family office structures. Creates new opportunities for UHNW client vehicles.",
+        "confidence": 0.92
+      },
+      "classified_at": "2024-01-14T15:00:00"
+    },
+    {
+      "title": "Supreme Court Judgment on Hindu Succession Act - Succession Rights of Adopted Daughters",
+      "url": "https://main.sci.gov.in/supremecourt/2024/orders/12345-2024",
+      "published": "2024-01-10T09:15:00",
+      "source": "Supreme Court - Orders",
+      "source_type": "official",
+      "summary": "Court clarifies succession rights parity between biological and adopted daughters under HSA",
+      "classification": {
+        "category": "Succession & Estate Planning",
+        "jurisdiction": "India",
+        "impact_level": "Critical",
+        "one_line_summary": "Supreme Court affirms equal succession rights for adopted daughters under Hindu Succession Act",
+        "why_it_matters": "Major precedent affecting family succession planning. Requires estate plan review for clients with adopted children. Impacts will documentation and testamentary provisions. Key trigger for proactive client outreach.",
+        "confidence": 0.98
+      },
+      "classified_at": "2024-01-10T10:30:00"
+    },
+    {
+      "title": "CBDT Circular on Taxation of Trust Income - Clarification on Beneficiary Rights",
+      "url": "https://www.incometaxindia.gov.in/communications/circulars/2024/01",
+      "published": "2024-01-08T11:45:00",
+      "source": "CBDT - Circulars",
+      "source_type": "official",
+      "summary": "Income Tax circular clarifies trust income attribution and beneficiary assessment",
+      "classification": {
+        "category": "Cross-Border Taxation",
+        "jurisdiction": "India",
+        "impact_level": "Important",
+        "one_line_summary": "CBDT clarifies tax treatment of trust income and beneficiary attribution under Income Tax Act",
+        "why_it_matters": "Direct tax impact on family trust structures. Affects wealth management strategy for discretionary vs fixed trusts. Critical for NRI/foreign settlor trust taxation.",
+        "confidence": 0.89
+      },
+      "classified_at": "2024-01-08T12:30:00"
+    },
+    {
+      "title": "RBI Press Release - SWIFT Standards for Cross-Border Wire Transfers",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?12345",
+      "published": "2024-01-05T16:20:00",
+      "source": "RBI - Press Releases",
+      "source_type": "official",
+      "summary": "Mandatory implementation of enhanced SWIFT standards for international remittances",
+      "classification": {
+        "category": "FEMA & Foreign Exchange",
+        "jurisdiction": "India",
+        "impact_level": "Informational",
+        "one_line_summary": "RBI mandates SWIFT standard compliance for cross-border fund transfers from India",
+        "why_it_matters": "Operational impact on cross-border remittance processing. Affects timing and documentation for offshore asset structuring. Minor compliance requirement but important for NRI clients.",
+        "confidence": 0.85
+      },
+      "classified_at": "2024-01-05T17:00:00"
+    }
+  ],
+  "last_scraped": "2024-01-15T08:00:00",
+  "total_count": 5
+}

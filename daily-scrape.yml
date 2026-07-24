@@ -1,0 +1,55 @@
+name: Daily Regulatory Scrape & Classify
+
+on:
+  schedule:
+    # Every day at 8 AM IST (2:30 AM UTC)
+    - cron: '30 2 * * *'
+  
+  # Also allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  scrape-and-classify:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run scraper
+        run: python scraper.py
+      
+      - name: Run classifier
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python classifier.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Only commit if there are changes
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git add data/updates.json
+            git commit -m "chore: update regulatory data $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+      
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "Scrape/classify job failed on $(date)"
+          echo "Check GitHub Actions logs for details"
