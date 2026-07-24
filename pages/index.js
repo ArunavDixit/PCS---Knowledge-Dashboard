@@ -26,11 +26,11 @@ export default function Dashboard() {
         setLoading(true);
         
         // Replace with your GitHub repo details
-        const githubUser = 'ArunavDixit';
+        const githubUser = "ArunavDixit";
         const githubRepo = 'regulatory-dashboard';
         const branch = 'main';
         
-        const dataUrl = `https://raw.githubusercontent.com/${ArunavDixit}/$PCS---Knowledge-Dashboard/$main/data/updates.json`;
+        const dataUrl = "https://raw.githubusercontent.com/ArunavDixit/PCS---Knowledge-Dashboard/main/data.json";
         
         const response = await fetch(dataUrl, {
           cache: 'no-store'
