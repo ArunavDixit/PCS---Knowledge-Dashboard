@@ -26,7 +26,7 @@ export default function Dashboard() {
         setLoading(true);
         
         // Replace with your GitHub repo details
-        const githubUser = 'YOUR_GITHUB_USERNAME';
+        const githubUser = 'https://raw.githubusercontent.com/ArunavDixit/PCS---Knowledge-Dashboard/main/data.json';
         const githubRepo = 'regulatory-dashboard';
         const branch = 'main';
         
