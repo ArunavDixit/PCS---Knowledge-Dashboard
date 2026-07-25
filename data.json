@@ -1,4 +1,206 @@
 {
-  "last_scraped": "2026-07-24T15:00:00Z",
-  "updates": []
+  "last_scraped": "2026-07-25T09:19:17Z",
+  "sources_scanned": [
+    "RBI",
+    "IFSCA",
+    "SEBI"
+  ],
+  "updates": [
+    {
+      "id": "2026_98974.html",
+      "published_date": "2026-07-25",
+      "source": "SEBI",
+      "title": "Securities and Exchange Board of India (Stock Brokers) Regulations, 2026",
+      "url": "https://www.sebi.gov.in/legal/regulations/jan-2026/securities-and-exchange-board-of-india-stock-brokers-regulations-2026_98974.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "26-_102780.html",
+      "published_date": "2026-07-25",
+      "source": "SEBI",
+      "title": "Securities and Exchange Board of India (Mutual Funds) Regulations, 2026  [Last amended on July 7, 2026]",
+      "url": "https://www.sebi.gov.in/legal/regulations/jul-2026/securities-and-exchange-board-of-india-mutual-funds-regulations-2026-last-amended-on-july-7-2026-_102780.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "sebi_30609.html",
+      "published_date": "2026-07-25",
+      "source": "SEBI",
+      "title": "Notifications under Finance Act, 2015 - Merger of FMC with SEBI",
+      "url": "https://www.sebi.gov.in/legal/acts/aug-2015/notifications-under-finance-act-2015-merger-of-fmc-with-sebi_30609.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "021-_49750.html",
+      "published_date": "2026-07-25",
+      "source": "SEBI",
+      "title": "Securities Contracts (Regulation) Act, 1956 (As amended by the Finance Act, 2021 (13 of 2021) w.e.f. April 1, 2021)",
+      "url": "https://www.sebi.gov.in/legal/acts/apr-2021/securities-contracts-regulation-act-1956-as-amended-by-the-finance-act-2021-13-of-2021-w-e-f-april-1-2021-_49750.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "fs-_102986.html",
+      "published_date": "2026-07-25",
+      "source": "SEBI",
+      "title": "Certification Requirements for Distribution of Specialized Investment Funds (SIFs)",
+      "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/certification-requirements-for-distribution-of-specialized-investment-funds-sifs-_102986.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "ies_103030.html",
+      "published_date": "2026-07-25",
+      "source": "SEBI",
+      "title": "Ease of Doing Investment and Ease of Doing Business \u2013 Simplification and standardisation of the framework for transmission of securities",
+      "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/ease-of-doing-investment-and-ease-of-doing-business-simplification-and-standardisation-of-the-framework-for-transmission-of-securities_103030.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "DB34C9B0ACD.PDF",
+      "published_date": "2026-07-25",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR7267BC089E0C6964921AA073DB34C9B0ACD.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "aspx?prid=63204",
+      "published_date": "2026-07-25",
+      "source": "RBI",
+      "title": "Rationalisation of Foreign Exchange Management (Non-Debt Instruments) Rules, 2019 \u2013 Draft Rules for Comments",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63204",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "73CBEA2EB78.PDF",
+      "published_date": "2026-07-25",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT202C175F4B078794171A4C0373CBEA2EB78.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13580&Mode=0",
+      "published_date": "2026-07-25",
+      "source": "RBI",
+      "title": "Reserve Bank of India (Local Area Banks \u2013 Income Recognition, Asset Classification and Provisioning) Second Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13580&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "33F9C3F80FA.PDF",
+      "published_date": "2026-07-25",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/61MD0825F724310142CBB351B33F9C3F80FA.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "s.aspx?id=11322",
+      "published_date": "2026-07-25",
+      "source": "RBI",
+      "title": "Master Directions on Relief/Savings Bonds",
+      "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11322",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "13A8E8F5355.PDF",
+      "published_date": "2026-07-25",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI2033D4B28F9A3A54B548FF6B13A8E8F5355.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13581&Mode=0",
+      "published_date": "2026-07-25",
+      "source": "RBI",
+      "title": "Special Rupee Vostro Accounts (SRVAs)",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13581&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    }
+  ]
 }
