@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-07-26T09:53:22Z",
+  "last_scraped": "2026-07-27T13:27:20Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "08EA8405DAF.PDF",
+      "published_date": "2026-07-27",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR766007904BBC85142E2B472408EA8405DAF.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "aspx?prid=63244",
+      "published_date": "2026-07-27",
+      "source": "RBI",
+      "title": "RBI issues Draft (Securitisation Transactions) Amendment Directions",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63244",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "2026_98974.html",
       "published_date": "2026-07-25",
