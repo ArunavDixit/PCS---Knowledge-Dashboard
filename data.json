@@ -1,11 +1,95 @@
 {
-  "last_scraped": "2026-07-30T10:39:20Z",
+  "last_scraped": "2026-07-31T11:35:57Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ebi_103241.html",
+      "published_date": "2026-07-31",
+      "source": "SEBI",
+      "title": "\u2018Green-Channel: AIF Rollout Upon Document Acknowledgement\u2019 (GARUDA) Mechanism for Processing of Placement Memorandum of Alternative Investment Funds (AIFs) filed with SEBI",
+      "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/-green-channel-aif-rollout-upon-document-acknowledgement-garuda-mechanism-for-processing-of-placement-memorandum-of-alternative-investment-funds-aifs-filed-with-sebi_103241.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "rs-_103277.html",
+      "published_date": "2026-07-31",
+      "source": "SEBI",
+      "title": "Extension of timelines with repect to compliance of Digital Accessibility Circulars.",
+      "url": "https://www.sebi.gov.in/legal/circulars/jul-2026/extension-of-timelines-with-repect-to-compliance-of-digital-accessibility-circulars-_103277.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "53033D2298F.PDF",
+      "published_date": "2026-07-31",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT21905948F408D284D128AA9853033D2298F.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13661&Mode=0",
+      "published_date": "2026-07-31",
+      "source": "RBI",
+      "title": "Reserve Bank of India (Urban Co-operative Banks \u2013 Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13661&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13663&Mode=0",
+      "published_date": "2026-07-31",
+      "source": "RBI",
+      "title": "Consolidation of Supervisory Instructions \u2013 Repeal of Circulars",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13663&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "E7B11B96548.PDF",
+      "published_date": "2026-07-31",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT222A6F1CE99F47E4043B7DBFE7B11B96548.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "08EA8405DAF.PDF",
       "published_date": "2026-07-27",
