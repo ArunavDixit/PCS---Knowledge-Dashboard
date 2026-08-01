@@ -1,11 +1,25 @@
 {
-  "last_scraped": "2026-07-31T11:35:57Z",
+  "last_scraped": "2026-08-01T09:36:38Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "Id=13664&Mode=0",
+      "published_date": "2026-08-01",
+      "source": "RBI",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC\u2019s 1988 (2011) Taliban Sanctions List: Amendment of 05 Entries:",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13664&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ebi_103241.html",
       "published_date": "2026-07-31",
