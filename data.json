@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-08-05T11:10:19Z",
+  "last_scraped": "2026-08-06T11:10:36Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "F8C60638FC0.PDF",
+      "published_date": "2026-08-06",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR8169DBCD4CF2C5C49FE8BCEAF8C60638FC0.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "aspx?prid=63294",
+      "published_date": "2026-08-06",
+      "source": "RBI",
+      "title": "RBI invites public comments on Draft Guidelines for \u2018on tap\u2019 Licensing of Urban Co-operative Banks",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63294",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "026_103314.html",
       "published_date": "2026-08-04",
