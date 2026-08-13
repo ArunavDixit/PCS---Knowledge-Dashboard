@@ -1,11 +1,53 @@
 {
-  "last_scraped": "2026-08-12T06:59:26Z",
+  "last_scraped": "2026-08-13T07:04:15Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ent_103521.html",
+      "published_date": "2026-08-13",
+      "source": "SEBI",
+      "title": "Review of Inclusion of Historical Scenarios in Stress Testing for Commodity Derivatives Segment",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/review-of-inclusion-of-historical-scenarios-in-stress-testing-for-commodity-derivatives-segment_103521.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "7F3930F8333.PDF",
+      "published_date": "2026-08-13",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR877FA1979D8611D42FB971417F3930F8333.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "aspx?prid=63355",
+      "published_date": "2026-08-13",
+      "source": "RBI",
+      "title": "RBI invites comments on the Draft \u201cReserve Bank of India (Interest Rates on Loans and Advances) Directions, 2026\u201d",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63355",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ns-_103488.html",
       "published_date": "2026-08-12",
