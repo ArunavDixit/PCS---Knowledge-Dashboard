@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-08-14T07:00:02Z",
+  "last_scraped": "2026-08-15T04:07:51Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "its_103644.html",
+      "published_date": "2026-08-15",
+      "source": "SEBI",
+      "title": "Framework for Calculation of Net Distributable Cash Flows for InvITs",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/framework-for-calculation-of-net-distributable-cash-flows-for-invits_103644.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "ess_103647.html",
+      "published_date": "2026-08-15",
+      "source": "SEBI",
+      "title": "Modification in the regulatory framework for Online Bond Platform Providers (OBPPs) including measures for promoting ease of doing business",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/modification-in-the-regulatory-framework-for-online-bond-platform-providers-obpps-including-measures-for-promoting-ease-of-doing-business_103647.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ent_103521.html",
       "published_date": "2026-08-13",
