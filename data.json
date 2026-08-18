@@ -1,11 +1,25 @@
 {
-  "last_scraped": "2026-08-17T04:28:26Z",
+  "last_scraped": "2026-08-18T04:21:08Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ion_103721.html",
+      "published_date": "2026-08-18",
+      "source": "SEBI",
+      "title": "Revision of Application Form for Mutual Fund Registration",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/revision-of-application-form-for-mutual-fund-registration_103721.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "its_103644.html",
       "published_date": "2026-08-15",
