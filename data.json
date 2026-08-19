@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-08-18T04:21:08Z",
+  "last_scraped": "2026-08-19T04:22:48Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "E8D37A4A7A9.PDF",
+      "published_date": "2026-08-19",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT23571C006A712574952B2413E8D37A4A7A9.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13677&Mode=0",
+      "published_date": "2026-08-19",
+      "source": "RBI",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC\u2019s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 04 Entries",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13677&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ion_103721.html",
       "published_date": "2026-08-18",
