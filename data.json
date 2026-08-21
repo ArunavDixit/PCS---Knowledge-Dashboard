@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-08-20T04:22:51Z",
+  "last_scraped": "2026-08-21T04:25:24Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ity_103823.html",
+      "published_date": "2026-08-21",
+      "source": "SEBI",
+      "title": "Enabling sharing of information by KYC Registration Agencies (KRAs) with entities regulated by International Financial Services Centres Authority",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/enabling-sharing-of-information-by-kyc-registration-agencies-kras-with-entities-regulated-by-international-financial-services-centres-authority_103823.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "pis_103824.html",
+      "published_date": "2026-08-21",
+      "source": "SEBI",
+      "title": "Acceptance of digitally signed Power of Attorney from FPIs",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/acceptance-of-digitally-signed-power-of-attorney-from-fpis_103824.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "DD0875AD70A.PDF",
       "published_date": "2026-08-20",
