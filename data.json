@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-08-24T05:07:39Z",
+  "last_scraped": "2026-08-25T03:26:20Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "is-_103913.html",
+      "published_date": "2026-08-25",
+      "source": "SEBI",
+      "title": "IT Resilience Index for Market Infrastructure Institutions (MIIs)",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/it-resilience-index-for-market-infrastructure-institutions-miis-_103913.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "mat_103915.html",
+      "published_date": "2026-08-25",
+      "source": "SEBI",
+      "title": "Alignment of SEBI's Cyber Incident Reporting Portal with FIRE Format",
+      "url": "https://www.sebi.gov.in/legal/circulars/aug-2026/alignment-of-sebi-s-cyber-incident-reporting-portal-with-fire-format_103915.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ity_103823.html",
       "published_date": "2026-08-21",
