@@ -1,11 +1,67 @@
 {
-  "last_scraped": "2026-08-25T03:26:20Z",
+  "last_scraped": "2026-08-26T03:32:37Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "0E99F102933.PDF",
+      "published_date": "2026-08-26",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/248NT8DDD6A72A6C84370B94BB0E99F102933.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13690&Mode=0",
+      "published_date": "2026-08-26",
+      "source": "RBI",
+      "title": "Reserve Bank of India (Rural Co-operative Banks \u2013 Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13690&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "0E99F102933.PDF",
+      "published_date": "2026-08-26",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/248NT8DDD6A72A6C84370B94BB0E99F102933.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13690&Mode=0",
+      "published_date": "2026-08-26",
+      "source": "RBI",
+      "title": "Reserve Bank of India (Rural Co-operative Banks \u2013 Interest Rate on Deposits) Second Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13690&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "is-_103913.html",
       "published_date": "2026-08-25",
