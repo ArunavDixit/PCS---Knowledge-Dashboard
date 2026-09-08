@@ -1,11 +1,67 @@
 {
-  "last_scraped": "2026-09-07T07:27:33Z",
+  "last_scraped": "2026-09-08T07:21:36Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ies_104319.html",
+      "published_date": "2026-09-08",
+      "source": "SEBI",
+      "title": "Ease of regulatory compliances for FPIs investing only in Government Securities",
+      "url": "https://www.sebi.gov.in/legal/circulars/sep-2026/ease-of-regulatory-compliances-for-fpis-investing-only-in-government-securities_104319.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "nds_104323.html",
+      "published_date": "2026-09-08",
+      "source": "SEBI",
+      "title": "Relaxation in timeline with respect to Accredited Investor mandate for Angel Funds",
+      "url": "https://www.sebi.gov.in/legal/circulars/sep-2026/relaxation-in-timeline-with-respect-to-accredited-investor-mandate-for-angel-funds_104323.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "A048C17E8C4.PDF",
+      "published_date": "2026-09-08",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI253D6DE1AFC21184AA09B9ACA048C17E8C4.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13695&Mode=0",
+      "published_date": "2026-09-08",
+      "source": "RBI",
+      "title": "Implementation of Section 51A of UAPA, 1967: Updates to UNSC\u2019s 1267/ 1989 ISIL (Da'esh) & Al-Qaida Sanctions List: Amendment of 2 Entries",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13695&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "321A0675EAE.PDF",
       "published_date": "2026-09-03",
