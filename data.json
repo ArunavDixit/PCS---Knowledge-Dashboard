@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-09-08T07:21:36Z",
+  "last_scraped": "2026-09-09T07:29:59Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "6F96E6FE308.PDF",
+      "published_date": "2026-09-09",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT254F42FDC8A07F849ED856846F96E6FE308.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13696&Mode=0",
+      "published_date": "2026-09-09",
+      "source": "RBI",
+      "title": "Review of Circulars issued under Foreign Exchange Management Act, 1999 (FEMA)",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13696&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ies_104319.html",
       "published_date": "2026-09-08",
