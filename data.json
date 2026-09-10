@@ -1,11 +1,25 @@
 {
-  "last_scraped": "2026-09-09T07:29:59Z",
+  "last_scraped": "2026-09-10T07:26:17Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ent_104387.html",
+      "published_date": "2026-09-10",
+      "source": "SEBI",
+      "title": "Review of Position Limits for Clients and Penalty Provisions for Violation / Breach of Position Limits for Commodity Derivatives Segment",
+      "url": "https://www.sebi.gov.in/legal/circulars/sep-2026/review-of-position-limits-for-clients-and-penalty-provisions-for-violation-breach-of-position-limits-for-commodity-derivatives-segment_104387.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "6F96E6FE308.PDF",
       "published_date": "2026-09-09",
