@@ -1,11 +1,67 @@
 {
-  "last_scraped": "2026-09-11T07:24:17Z",
+  "last_scraped": "2026-09-12T07:16:53Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "4B0CB6A5303.PDF",
+      "published_date": "2026-09-12",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR110975FCF246F5BC47ACB3EA34B0CB6A5303.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "aspx?prid=63587",
+      "published_date": "2026-09-12",
+      "source": "RBI",
+      "title": "RBI invites comments on the Draft \u201cReserve Bank of India (Know Your Customer) Amendment Directions, 2026\u201d",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63587",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "8CED5F6E5C6.PDF",
+      "published_date": "2026-09-12",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/256NT69E7AC0A815E49618C2CB8CED5F6E5C6.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13698&Mode=0",
+      "published_date": "2026-09-12",
+      "source": "RBI",
+      "title": "Reserve Bank of India (Priority Sector Lending \u2013 Targets and Classification) Third Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13698&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ent_104387.html",
       "published_date": "2026-09-10",
