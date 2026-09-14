@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-09-13T07:35:15Z",
+  "last_scraped": "2026-09-14T08:01:34Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "E43A0716C1A.PDF",
+      "published_date": "2026-09-14",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOT2555AA6FB63E154403D95A54E43A0716C1A.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13697&Mode=0",
+      "published_date": "2026-09-14",
+      "source": "RBI",
+      "title": "Reserve Bank of India (Local Area Banks \u2013 Cash Reserve Ratio and Statutory Liquidity Ratio) Second Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13697&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "4B0CB6A5303.PDF",
       "published_date": "2026-09-12",
