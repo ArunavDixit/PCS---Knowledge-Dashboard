@@ -1,11 +1,67 @@
 {
-  "last_scraped": "2026-09-18T07:32:47Z",
+  "last_scraped": "2026-09-19T07:28:43Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "E3100941596.PDF",
+      "published_date": "2026-09-19",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2621136F543AAF54E3C83DC6E3100941596.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13704&Mode=0",
+      "published_date": "2026-09-19",
+      "source": "RBI",
+      "title": "Reserve Bank of India (Rural Co-operative Banks \u2013 Know Your Customer) Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13704&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "E3100941596.PDF",
+      "published_date": "2026-09-19",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT2621136F543AAF54E3C83DC6E3100941596.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13704&Mode=0",
+      "published_date": "2026-09-19",
+      "source": "RBI",
+      "title": "Reserve Bank of India (Rural Co-operative Banks \u2013 Know Your Customer) Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13704&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "E43A0716C1A.PDF",
       "published_date": "2026-09-14",
