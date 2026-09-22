@@ -1,11 +1,25 @@
 {
-  "last_scraped": "2026-09-21T08:06:42Z",
+  "last_scraped": "2026-09-22T07:51:21Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "3DA6AED9DFC.PDF",
+      "published_date": "2026-09-22",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/472MDACBA450D67234F52BA2983DA6AED9DFC.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "E3100941596.PDF",
       "published_date": "2026-09-19",
