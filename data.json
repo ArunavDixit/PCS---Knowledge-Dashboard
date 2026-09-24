@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-09-23T07:53:37Z",
+  "last_scraped": "2026-09-24T07:43:49Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "E8AD0CDEF4E.PDF",
+      "published_date": "2026-09-24",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT269D2CF6DE13687460D8CFB6E8AD0CDEF4E.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13712&Mode=0",
+      "published_date": "2026-09-24",
+      "source": "RBI",
+      "title": "Exim Bank\u2019s GOI-supported Line of Credit (LOC) for \u20b9 4,850 crores the Government of Maldives, for financing various developmental projects in Maldives",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13712&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "668FD8B8EC1.PDF",
       "published_date": "2026-09-23",
