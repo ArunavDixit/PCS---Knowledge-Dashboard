@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-09-25T08:03:22Z",
+  "last_scraped": "2026-09-26T07:55:13Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "25930BF49F9.PDF",
+      "published_date": "2026-09-26",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/FEMA23R2509202677C08DEDE2694B528FF6025930BF49F9.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13714&Mode=0",
+      "published_date": "2026-09-26",
+      "source": "RBI",
+      "title": "Foreign Exchange Management (Export and Import of Goods and Services) (Amendment) Regulations, 2026",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13714&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "E5AF0FF4FDD.PDF",
       "published_date": "2026-09-25",
