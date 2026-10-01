@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-09-30T08:48:58Z",
+  "last_scraped": "2026-10-01T09:13:30Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "930B1A4A63C.PDF",
+      "published_date": "2026-10-01",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI27401102026AA16BFEFF59341BF97FD2930B1A4A63C.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13718&Mode=0",
+      "published_date": "2026-10-01",
+      "source": "RBI",
+      "title": "Consolidation/ Review of instructions issued on currency management matters \u2013 Withdrawal of Circulars/ Guidelines",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13718&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "BD7FC932BF9.PDF",
       "published_date": "2026-09-30",
