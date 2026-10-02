@@ -1,11 +1,81 @@
 {
-  "last_scraped": "2026-10-01T09:13:30Z",
+  "last_scraped": "2026-10-02T08:46:30Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ook_104858.html",
+      "published_date": "2026-10-02",
+      "source": "SEBI",
+      "title": "Display of \u201cinvestor awareness message(s)\u201d by stock brokers on their trading apps and websites, under Project Jagrook",
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/display-of-investor-awareness-message-s-by-stock-brokers-on-their-trading-apps-and-websites-under-project-jagrook_104858.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "D495C3B914E.PDF",
+      "published_date": "2026-10-02",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT278A39F641BB3C5485194734D495C3B914E.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13722&Mode=0",
+      "published_date": "2026-10-02",
+      "source": "RBI",
+      "title": "Reserve Bank of India (Local Area Banks - Acquisition and Holding of Shares or Voting Rights) Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13722&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "DF75C81E466.PDF",
+      "published_date": "2026-10-02",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/473MDD1229693F0604B6D996B1DF75C81E466.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13723&Mode=0",
+      "published_date": "2026-10-02",
+      "source": "RBI",
+      "title": "Master Direction on Note Sorting Machines",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13723&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "930B1A4A63C.PDF",
       "published_date": "2026-10-01",
