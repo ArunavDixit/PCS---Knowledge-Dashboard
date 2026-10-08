@@ -1,11 +1,95 @@
 {
-  "last_scraped": "2026-10-07T09:01:09Z",
+  "last_scraped": "2026-10-08T09:16:31Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ers_105080.html",
+      "published_date": "2026-10-08",
+      "source": "SEBI",
+      "title": "Exemption from the requirement of mandatory merchant banker appointment for debt issued through private placement by certain listed issuers",
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/exemption-from-the-requirement-of-mandatory-merchant-banker-appointment-for-debt-issued-through-private-placement-by-certain-listed-issuers_105080.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "ies_105081.html",
+      "published_date": "2026-10-08",
+      "source": "SEBI",
+      "title": "Introduction of Credit Risk-o-Meter as an additional disclosure mechanism for debt securities",
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/introduction-of-credit-risk-o-meter-as-an-additional-disclosure-mechanism-for-debt-securities_105081.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "90AAE0C4B78.PDF",
+      "published_date": "2026-10-08",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT289FD5C6CE733C944BCA3C1590AAE0C4B78.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13735&Mode=0",
+      "published_date": "2026-10-08",
+      "source": "RBI",
+      "title": "Reserve Bank of India (All India Financial Institutions (AIFIs) \u2013 Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13735&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "90AAE0C4B78.PDF",
+      "published_date": "2026-10-08",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NT289FD5C6CE733C944BCA3C1590AAE0C4B78.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13735&Mode=0",
+      "published_date": "2026-10-08",
+      "source": "RBI",
+      "title": "Reserve Bank of India (All India Financial Institutions (AIFIs) \u2013 Prudential Norms on Capital Adequacy) Fifth Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13735&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "5699F9D721A.PDF",
       "published_date": "2026-10-07",
