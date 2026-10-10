@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-10-09T09:24:38Z",
+  "last_scraped": "2026-10-10T08:45:45Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "3F31E26175F.PDF",
+      "published_date": "2026-10-10",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/292NT63009643AFA847A48C9A73F31E26175F.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13738&Mode=0",
+      "published_date": "2026-10-10",
+      "source": "RBI",
+      "title": "Risk Management and Inter-Bank Dealings - Foreign Exchange Risk Reserve",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13738&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ers_105080.html",
       "published_date": "2026-10-08",
