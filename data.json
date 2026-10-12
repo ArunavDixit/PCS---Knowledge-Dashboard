@@ -1,11 +1,25 @@
 {
-  "last_scraped": "2026-10-11T09:08:45Z",
+  "last_scraped": "2026-10-12T09:32:34Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "026_105126.html",
+      "published_date": "2026-10-12",
+      "source": "SEBI",
+      "title": "Securities and Exchange Board of India (Settlement of Administrative and Civil Proceedings) Regulations, 2026",
+      "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-settlement-of-administrative-and-civil-proceedings-regulations-2026_105126.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "3F31E26175F.PDF",
       "published_date": "2026-10-10",
