@@ -1,11 +1,53 @@
 {
-  "last_scraped": "2026-10-12T09:32:34Z",
+  "last_scraped": "2026-10-13T09:38:24Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "27-_105159.html",
+      "published_date": "2026-10-13",
+      "source": "SEBI",
+      "title": "Securities and Exchange Board of India (Portfolio Managers) Regulations, 2026 (With effect from April 1, 2027)",
+      "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-portfolio-managers-regulations-2026-with-effect-from-april-1-2027-_105159.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "EBA6F159565.PDF",
+      "published_date": "2026-10-13",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOTI293D62A07A6EF394B75BAB6BEBA6F159565.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13739&Mode=0",
+      "published_date": "2026-10-13",
+      "source": "RBI",
+      "title": "Risk Management and Inter-Bank Dealings",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13739&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "026_105126.html",
       "published_date": "2026-10-12",
