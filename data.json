@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-10-22T07:49:20Z",
+  "last_scraped": "2026-10-23T07:48:20Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "26-_105356.html",
+      "published_date": "2026-10-23",
+      "source": "SEBI",
+      "title": "Securities and Exchange Board of India (Mutual Funds) Regulations, 2026  [Last amended on October 10, 2026]",
+      "url": "https://www.sebi.gov.in/legal/regulations/oct-2026/securities-and-exchange-board-of-india-mutual-funds-regulations-2026-last-amended-on-october-10-2026-_105356.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "ent_105364.html",
+      "published_date": "2026-10-23",
+      "source": "SEBI",
+      "title": "Margin Waiver on Subsequent Buy/Sell Transactions Post Early Pay-In (EPI) in Cash Segment",
+      "url": "https://www.sebi.gov.in/legal/circulars/oct-2026/margin-waiver-on-subsequent-buy-sell-transactions-post-early-pay-in-epi-in-cash-segment_105364.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "E2DE9383863.PDF",
       "published_date": "2026-10-20",
