@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-10-26T07:59:25Z",
+  "last_scraped": "2026-10-27T08:11:00Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "B9C2D74EB35.PDF",
+      "published_date": "2026-10-27",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/NOT300F305FBB8AB71472391BE6B9C2D74EB35.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "Id=13746&Mode=0",
+      "published_date": "2026-10-27",
+      "source": "RBI",
+      "title": "Re-organisation of districts in the NCT of Delhi \u2013 Assignment and Review of Lead Bank Responsibility",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13746&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ies_105400.html",
       "published_date": "2026-10-24",
