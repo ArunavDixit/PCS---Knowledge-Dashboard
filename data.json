@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-11-02T09:45:38Z",
+  "last_scraped": "2026-11-03T09:48:48Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ts-_105557.html",
+      "published_date": "2026-11-03",
+      "source": "SEBI",
+      "title": "Framework for Issuance of Depository Receipts on Units of InvITs\u200b",
+      "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-invits-_105557.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "ts-_105558.html",
+      "published_date": "2026-11-03",
+      "source": "SEBI",
+      "title": "Framework for Issuance of Depository Receipts on Units of REITs\u200b",
+      "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-reits-_105558.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "pis_105504.html",
       "published_date": "2026-10-31",
