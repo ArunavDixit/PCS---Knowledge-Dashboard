@@ -1,11 +1,81 @@
 {
-  "last_scraped": "2026-11-05T09:42:56Z",
+  "last_scraped": "2026-11-06T09:37:33Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ket_105616.html",
+      "published_date": "2026-11-06",
+      "source": "SEBI",
+      "title": "Framework for net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+      "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_105616.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "ors_105618.html",
+      "published_date": "2026-11-06",
+      "source": "SEBI",
+      "title": "Review of the framework for Accredited Investors",
+      "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-the-framework-for-accredited-investors_105618.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "01BFAC4AC17.PDF",
+      "published_date": "2026-11-06",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR144730EC84B9DC9042D0989F301BFAC4AC17.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "aspx?prid=63925",
+      "published_date": "2026-11-06",
+      "source": "RBI",
+      "title": "Consolidation of Instructions Related to Priority Sector Lending \u2013 Drafts for Comments",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63925",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "1A33C9ECBFE.PDF",
+      "published_date": "2026-11-06",
+      "source": "RBI",
+      "title": "",
+      "url": "https://rbidocs.rbi.org.in/rdocs/notification/PDFs/475MDA65A2A40240B4510BB6301A33C9ECBFE.PDF",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "nts_105603.html",
       "published_date": "2026-11-05",
