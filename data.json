@@ -1,11 +1,25 @@
 {
-  "last_scraped": "2026-11-07T09:01:04Z",
+  "last_scraped": "2026-11-08T09:18:52Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "Id=13751&Mode=0",
+      "published_date": "2026-11-08",
+      "source": "RBI",
+      "title": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=13751&Mode=0",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "ket_105616.html",
       "published_date": "2026-11-06",
