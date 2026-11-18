@@ -1,11 +1,25 @@
 {
-  "last_scraped": "2026-11-17T10:56:24Z",
+  "last_scraped": "2026-11-18T10:28:06Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ent_105799.html",
+      "published_date": "2026-11-18",
+      "source": "SEBI",
+      "title": "Review of Margin Framework for Commodity Derivatives Segment",
+      "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-margin-framework-for-commodity-derivatives-segment_105799.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "026_105705.html",
       "published_date": "2026-11-12",
