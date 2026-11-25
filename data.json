@@ -1,11 +1,39 @@
 {
-  "last_scraped": "2026-11-24T12:46:34Z",
+  "last_scraped": "2026-11-25T11:32:41Z",
   "sources_scanned": [
     "RBI",
     "IFSCA",
     "SEBI"
   ],
   "updates": [
+    {
+      "id": "ies_105839.html",
+      "published_date": "2026-11-25",
+      "source": "SEBI",
+      "title": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
+      "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
+    {
+      "id": "024_105853.html",
+      "published_date": "2026-11-25",
+      "source": "SEBI",
+      "title": "Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
+      "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html",
+      "classification": {
+        "category": "General Housekeeping",
+        "impact_level": "Low",
+        "summary": "Automated summary failed.",
+        "why_it_matters": "Requires manual review.",
+        "affected_entities": []
+      }
+    },
     {
       "id": "89AD4D0008D.PDF",
       "published_date": "2026-11-24",
